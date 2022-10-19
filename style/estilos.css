@@ -1,0 +1,239 @@
+h1 {
+  height: auto;
+  font-family: "Orbitron", sans-serif;
+  font-size: 70px;
+  background-image: linear-gradient(to left, rgb(23, 136, 0), rgb(35, 197, 3), rgb(23, 160, 23));
+  margin: 0;
+}
+
+h2 {
+  height: auto;
+  font-family: "Orbitron", sans-serif;
+  font-size: 70px;
+  background-image: linear-gradient(to left, rgb(23, 136, 0), rgb(35, 197, 3), rgb(23, 160, 23));
+  margin: 0;
+}
+
+footer {
+  border-top: solid;
+  display: flex;
+  height: auto;
+  background-color: rgba(77, 248, 9, 0.733);
+  color: black;
+  font-family: "Orbitron", sans-serif;
+}
+footer p:hover {
+  color: rgba(7, 4, 184, 0.87);
+}
+
+.navbar:hover {
+  color: white;
+}
+
+header .opciones-1 {
+  background-color: brown;
+  border: solid;
+}
+header .opciones-1:hover {
+  border: solid red;
+}
+header .opciones-2 {
+  background-color: greenyellow;
+  border: solid;
+}
+header .opciones-2:hover {
+  border: solid red;
+}
+header .opciones-3 {
+  background-color: grey;
+  border: solid;
+}
+header .opciones-3:hover {
+  border: solid red;
+}
+header .opciones-4 {
+  background-color: forestgreen;
+  border: solid;
+}
+header .opciones-4:hover {
+  border: solid red;
+}
+header .opciones-5 {
+  background-color: blueviolet;
+  border: solid;
+}
+header .opciones-5:hover {
+  border: solid red;
+}
+header .opciones-6 {
+  background-color: aqua;
+  border: solid;
+}
+header .opciones-6:hover {
+  border: solid red;
+}
+
+body {
+  background-color: darkgray;
+  height: auto;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+
+main {
+  height: 700px;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+}
+
+.navbar {
+  border-bottom: solid;
+  border-top: solid;
+  font-family: "Orbitron", sans-serif;
+}
+
+.parrafo-1 {
+  border-bottom: solid;
+  background-color: antiquewhite;
+  font-family: "Orbitron", sans-serif;
+  background-image: linear-gradient(to left, rgb(49, 49, 245), rgb(175, 173, 173), rgb(49, 49, 255));
+}
+
+.parrafo-2 {
+  border-bottom: solid;
+  background-color: antiquewhite;
+  font-family: "Orbitron", sans-serif;
+  font-size: 17px;
+  background-image: linear-gradient(to left, rgb(49, 49, 245), rgb(175, 173, 173), rgb(49, 49, 255));
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infom {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formulario {
+  width: 300px;
+  height: 340px;
+  border: solid 5px;
+  font-family: "Orbitron", sans-serif;
+}
+
+h5 {
+  border-bottom: solid;
+  background-image: linear-gradient(to left, red, yellow);
+}
+
+.h6 {
+  border-top: solid;
+  background-image: linear-gradient(to left, rgb(49, 49, 245), rgb(175, 173, 173), rgb(49, 49, 255));
+}
+
+.boton {
+  margin: 6px;
+}
+
+.boton2 {
+  display: flex;
+}
+
+.boton3 {
+  position: relative;
+  top: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.consulta {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border: 4px solid black;
+  border-radius: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 13px;
+}
+
+.hola {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  margin-left: auto;
+}
+
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding-top: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 690px) {
+  .formulario {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

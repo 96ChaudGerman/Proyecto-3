@@ -1,0 +1,44 @@
+header{
+    .opciones-1{
+        background-color: brown;
+        border: solid;
+        &:hover{
+            border: solid red;
+        }
+    }
+    .opciones-2{
+        background-color: greenyellow;
+        border: solid;
+        &:hover{
+            border: solid red;
+        }
+    }
+    .opciones-3{
+        background-color: grey;
+        border: solid;
+        &:hover{
+            border: solid red;
+        }
+    }
+    .opciones-4{
+        background-color: forestgreen;
+        border: solid;
+        &:hover{
+            border: solid red;
+        }
+    }
+    .opciones-5{
+        background-color: blueviolet;
+        border: solid;
+        &:hover{
+            border: solid red;
+        }
+    }
+    .opciones-6{
+        background-color: aqua;
+        border: solid;
+        &:hover{
+            border: solid red;
+        }
+    }
+}
